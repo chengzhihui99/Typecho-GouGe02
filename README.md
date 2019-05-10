@@ -10,7 +10,7 @@ GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变
 
 ## 主题特点
 
-![smartmockups_jvhjircr.jpg][1]
+![Typecho-GouGe02][1]
 
 1、响应式设计，完美兼容移动端设备浏览。
 
@@ -30,11 +30,13 @@ GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变
 
 大家觉得还不错的话，就来个star~
 
+## 站点演示
 
+[程志辉博客](https://www.qqzmly.com)
 
 ## 主题使用说明
 
-![smartmockups_jvhj59h2.jpg][2]
+![Typecho-GouGe02][2]
 
 **1.文章缩略图设置**
 
@@ -51,7 +53,7 @@ GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变
 <blockquote>引用的内容</blockquote>  //html语法
 ```
 
-###### 3.待添加...
+**3.待添加...**
 
 ## Typecho插件推荐
 
@@ -60,6 +62,7 @@ GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变
 [CommentFilter](http://www.imhan.com/typecho/) 评论过滤器 大幅度避免垃圾评论的干扰
 
 [CommentToMail](<https://github.com/chengzhihui99/Typecho-CommentToMail/tree/master>) 评论邮件提醒插件 让每一个评论者都能收到回复
+
 
 [1]: https://www.qqzmly.com/usr/uploads/2019/05/3077985766.jpg
 [2]: https://www.qqzmly.com/usr/uploads/2019/05/1805102060.jpg
