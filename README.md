@@ -2,7 +2,7 @@
 
 <img src="https://www.qqzmly.com/usr/uploads/2019/05/3576276188.jpg" alt="Typecho-GouGe02">
 
-> 每个博客都有故事，每篇博文后面都有着耐人寻味的故事
+> 每个博客都有故事，用博客记录美好生活~
 
 GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变得更加简单！
 
@@ -10,7 +10,7 @@ GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变
 
 ## 主题特点
 
-![Typecho-GouGe02][1]
+![smartmockups_jvhjircr.jpg][1]
 
 1、响应式设计，完美兼容移动端设备浏览。
 
@@ -34,9 +34,11 @@ GouGe02一款基于Typecho开发的主题，单栏式简约主题，让写作变
 
 [程志辉博客](https://www.qqzmly.com)
 
+小伙伴们使用这款主题的话留言举个爪~
+
 ## 主题使用说明
 
-![Typecho-GouGe02][2]
+![smartmockups_jvhj59h2.jpg][2]
 
 **1.文章缩略图设置**
 
