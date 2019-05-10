@@ -6,16 +6,16 @@
 
 <footer id="footer" role="contentinfo">
 	<p>
-		<a href="https://weibo.com/ithuige"><i class="fa fa-weibo"></i></a><!--这里是新浪微博地址，如果没有就删除-->
-      	<a href="https://github.com/chengzhihui99"><i class="fa fa-github"></i></a><!--这里是github地址，如果没有就删除-->
-		<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=admin@qqzmly.com"><i class="fa fa-envelope"></i></a><!--这里是email地址，如果没有就删除-->
-		<a href="<?php $this->options->siteUrl(); ?>/feed"><i class="fa fa-feed"></i></a>
+		<a href="https://weibo.com/ithuige" target="_blank"><i class="fa fa-weibo"></i></a><!--这里是新浪微博地址，如果没有就删除-->
+      	<a href="https://github.com/chengzhihui99" target="_blank"><i class="fa fa-github"></i></a><!--这里是github地址，如果没有就删除-->
+		<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=admin@qqzmly.com" target="_blank"><i class="fa fa-envelope"></i></a><!--这里是email地址，如果没有就删除-->
+		<a href="<?php $this->options->siteUrl(); ?>/feed" target="_blank"><i class="fa fa-feed"></i></a>
   	</p>
     <p>&copy; 2015-<?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
-    <?php _e('由 <a href="http://www.typecho.org">Typecho</a> 强力驱动'); ?>.</p>
-    <p>THEME <a href="https://www.qqzmly.com/archives/1603">GouGe02</a> MADE BY <a href="https://www.qqzmly.com">QQZmLy.CoM</a></p><!--写代码不容易，留个版权吧^_^...-->
+    <?php _e('由 <a href="http://www.typecho.org" target="_blank">Typecho</a> 强力驱动'); ?>.</p>
+    <p>THEME <a href="https://www.qqzmly.com/archives/1603" target="_blank">GouGe02</a> MADE BY <a href="https://www.qqzmly.com" target="_blank">QQZmLy.CoM</a></p><!--写代码不容易，留个版权吧^_^...-->
     <p><a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">鄂ICP备16001608号-1</a><!--这里是ICP备案，如果没有就删除--></p>
-    <p><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42020302000018" rel="external nofollow" target="_blank"><i class="govimg"></i>鄂公网安备 42020302000018号</a></p><!--这里是公安备案，如果没有就删除-->  	
+    <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42020302000018" rel="external nofollow" target="_blank"><i class="govimg"></i>鄂公网安备 42020302000018号</a></p><!--这里是公安备案，如果没有就删除-->  	
 	<!--尾部的内容都加在这里！-->
     
     
