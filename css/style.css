@@ -676,6 +676,17 @@ body{
 	.post-inner .entry-post-meta li i{
 		margin-right: 4px;
 	}
+	.post-inner .entry-title{
+		font-size: 28px;
+	}
+}
+@media screen and (max-width:321px) {
+	.post-inner .entry-title{
+		font-size: 24px;
+	}
+	.post-inner .entry-post-content{
+		font-size: 14px;
+	}
 }
 
 /*post正文页结束*/
