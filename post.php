@@ -3,7 +3,7 @@
 
 <section id="main" class="col-md-12">
 	<article>
-		<div class="post-inner clearfix">
+		<div class="post-inner">
 			<header class="entry-header">
 				<h1 class="entry-title"><?php $this->title() ?></h1>
 				<ul class="entry-post-meta">
@@ -23,15 +23,15 @@
 				<span>Tags : <?php $this->category(','); ?></span>
 			</p>
 			<p class="entry-copyright">
-				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
 			</p>
-			<div class="post-near  clearfix">
+			<div class="post-near">
 				<div class="post-pre">
-					<span class="meta-nav"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;Previous post</span>
+					<span class="meta-nav"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Previous post</span>
 					<span class="post-title"><?php $this->thePrev('%s','没有了'); ?></span>
 				</div>
 				<div class="post-nex">
-					<span class="meta-nav">Next post&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+					<span class="meta-nav">Next post&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></span>
 					<span class="post-title"><?php $this->theNext('%s','没有了'); ?></span>
 				</div>
 	    	</div>
