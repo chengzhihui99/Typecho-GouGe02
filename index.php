@@ -14,25 +14,45 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  ?>
 
 <section class="col-md-12 post-content">
+<?php //($this->next()); ?>
+<?php //print_r($this->category); ?>
 	<?php while($this->next()): ?>
-		<article class="post-item">
-			<div class="item-thumb">
-				<a href="<?php $this->permalink() ?>"><img src="<?php echo img_postthumb($this->cid); ?>" alt="<?php $this->title() ?>"></a>
-			</div>
-			<div class="item-text">
-				<h2 class="post-title"><a  href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
-				<div class="post-content">
-					<?php $this->excerpt(135, ' ...'); ?>
+		<?php //print_r($this->next("slug")); ?>
+		<?php if(($this->category)=="gougesay"): ?>
+			<article class="post-item saying">
+				<div class="saying_top">
+					<div class="saying_logo">
+						<a href="<?php $this->author->permalink(); ?>" title="<?php $this->author(); ?>"><img src="<?php $this->options->themeUrl('img/top-myphoto.jpg'); ?>" alt="<?php $this->author(); ?>"></a>
+					</div>
+					<div class="saying_more">
+						<p class="author"><a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a></p>
+						<p class="time"><?php $this->date("Y年m月d日",time()); ?></p>
+					</div>
 				</div>
-				<ul class="post-meta">
-					<li><a href="<?php $this->permalink() ?>"><time><i class="fa fa-calendar"></i><?php $this->date("Y年m月d日",time()); ?></time></a></li>
-					<li><a href="<?php $this->permalink() ?>"><i class="fa fa-eye"></i><?php get_post_view($this) ?>次浏览</a></li>
-					<li class="mobile-hidden"><a href="<?php $this->permalink() ?>#comments"><i class="fa fa-commenting-o"></i><?php $this->commentsNum('0','1','%d'); ?>条评论</a></li>
-				</ul>
-				<div class="post-more"><a href="<?php $this->permalink() ?>">阅读全文<i class="fa fa-chevron-circle-right"></i></a></div>			
-			</div>
+				<div class="saying_con">
+					<a href="<?php $this->permalink() ?>"><?php $this->excerpt(300, ' ...'); ?></a>
+				</div>
+			</article>
 			
-		</article>
+		<?php else: ?>
+			<article class="post-item">
+				<div class="item-thumb">
+					<a href="<?php $this->permalink() ?>"><img src="<?php echo img_postthumb($this->cid); ?>" alt="<?php $this->title() ?>"></a>
+				</div>
+				<div class="item-text">
+					<h2 class="post-title"><a  href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
+					<div class="post-content">
+						<?php $this->excerpt(135,'...'); ?>
+					</div>
+					<ul class="post-meta">
+						<li><a href="<?php $this->permalink() ?>"><time><i class="fa fa-calendar"></i><?php $this->date("Y年m月d日",time()); ?></time></a></li>
+						<li><a href="<?php $this->permalink() ?>"><i class="fa fa-eye"></i><?php get_post_view($this) ?>次浏览</a></li>
+						<li class="mobile-hidden"><a href="<?php $this->permalink() ?>#comments"><i class="fa fa-commenting-o"></i><?php $this->commentsNum('0','1','%d'); ?>条评论</a></li>
+					</ul>
+					<div class="post-more"><a href="<?php $this->permalink() ?>">阅读全文<i class="fa fa-chevron-circle-right"></i></a></div>			
+				</div>
+			</article>
+		<?php endif ?>
 	<?php endwhile; ?>
 		<nav class="nav-page">
 			<div class="nav-page-pre">

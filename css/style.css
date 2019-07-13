@@ -349,9 +349,10 @@ body{
     margin: 0 auto;
     margin-bottom: 55px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-bottom: 15px;
 	box-shadow: 0 1px 5px rgba(0,0,0,.1);
+	overflow: hidden;
 }
 .post-item:nth-last-of-type(1){
 	margin-bottom: 40px!important;
@@ -359,8 +360,6 @@ body{
 .post-item img{
 	width: 100%;
 	max-height: 453.325px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
 }
 .post-item .item-text{
 	padding: 0 20px;
@@ -1042,3 +1041,40 @@ body{
 		top: 30%;
 	}
 }
+/* saying开始 */
+.saying{
+	padding: 10px 15px;
+	/* box-shadow: none; */
+	/* border-radius:0; */
+	/* background-color: transparent; */
+}
+.saying img{
+	width: auto;
+}
+.saying_top{
+	margin-bottom: 8px;
+}
+.saying_logo,.saying_more{
+	display: inline-block;
+}
+.saying_more{
+	margin-left: 8px;
+}
+.saying_logo img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+.saying_more .author{
+	font-size: 16px;
+	line-height: 16px;
+}
+.saying_more .time{
+	font-size: 12px;
+	color:#99a2aa;
+}
+.saying_con{
+	margin: 6px 0 6px 60px;
+}
+/* saying结束 */
